@@ -10,13 +10,13 @@ namespace Goats
 
         public void HaySolution()
         {
-            double HayFinal = CalculateHay(1, 1, 2, 2, 1);
-            Assert.AreEqual(4, HayFinal);
+            double HayFinal = CalculateHay(2, 1, 5, 4, 2);
+            Assert.AreEqual(20, HayFinal);
         }
 
-        double CalculateHay(int GoatsNoInit, int DaysInit, double KilosHayInit,int GoatsFinal, int DaysFinal)
+        double CalculateHay(int GoatsNoInit, int DaysInit, double KilosHayInit,int GoatsNoFinal, int DaysFinal)
         {
-            return (GoatsNoInit*DaysFinal*KilosHayInit)/(GoatsFinal*DaysInit);
+            return (GoatsNoFinal*DaysFinal*KilosHayInit/GoatsNoInit)/DaysInit;
         }
         
     }
