@@ -10,14 +10,14 @@ namespace Pavement
 
         public void SquarePavement()
         {
-            decimal pavementStones = CalculatePavementforSquare(6, 6, 4);
-            Assert.AreEqual(3, pavementStones);
+            decimal pavementStones = CalculatePavementforSquare(8, 10, 2);
+            Assert.AreEqual(20, pavementStones);
         }
 
         decimal CalculatePavementforSquare(decimal squareLength, decimal squareWidth, decimal buildingStoneSize)
         {
-            decimal stonesNo = squareLength * squareWidth / (buildingStoneSize * buildingStoneSize);
-            return Math.Ceiling(stonesNo);            
+            decimal stonesNo = Math.Ceiling(squareLength/buildingStoneSize)*Math.Ceiling(squareWidth /buildingStoneSize);
+            return stonesNo;            
         }
 
     }
