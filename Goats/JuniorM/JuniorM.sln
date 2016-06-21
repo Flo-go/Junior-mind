@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Goats", "Goats\Goats.csproj", "{70017CDB-6400-45C9-9CDE-48E7707D497A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mushrooms", "..\..\Exercises\JuniorM\Mushrooms\Mushrooms.csproj", "{C7A35262-9149-4EFB-97C7-9A5E1DB50B81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Training", "..\..\Exercises\JuniorM\Training\Training.csproj", "{6DCF0174-5605-41B6-9DD3-587366CBB19C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{70017CDB-6400-45C9-9CDE-48E7707D497A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70017CDB-6400-45C9-9CDE-48E7707D497A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70017CDB-6400-45C9-9CDE-48E7707D497A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7A35262-9149-4EFB-97C7-9A5E1DB50B81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7A35262-9149-4EFB-97C7-9A5E1DB50B81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7A35262-9149-4EFB-97C7-9A5E1DB50B81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7A35262-9149-4EFB-97C7-9A5E1DB50B81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DCF0174-5605-41B6-9DD3-587366CBB19C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DCF0174-5605-41B6-9DD3-587366CBB19C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DCF0174-5605-41B6-9DD3-587366CBB19C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DCF0174-5605-41B6-9DD3-587366CBB19C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
