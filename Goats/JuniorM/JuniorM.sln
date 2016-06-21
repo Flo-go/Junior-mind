@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mushrooms", "..\..\Exercise
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Training", "..\..\Exercises\JuniorM\Training\Training.csproj", "{6DCF0174-5605-41B6-9DD3-587366CBB19C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pavement", "..\..\Exercises\JuniorM\Pavement\Pavement.csproj", "{FEDDE1CF-8015-4DBA-B135-5AB5487CF6B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{6DCF0174-5605-41B6-9DD3-587366CBB19C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DCF0174-5605-41B6-9DD3-587366CBB19C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DCF0174-5605-41B6-9DD3-587366CBB19C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEDDE1CF-8015-4DBA-B135-5AB5487CF6B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEDDE1CF-8015-4DBA-B135-5AB5487CF6B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEDDE1CF-8015-4DBA-B135-5AB5487CF6B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEDDE1CF-8015-4DBA-B135-5AB5487CF6B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
