@@ -243,3 +243,7 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+/Exercises/JuniorM/ArchaeologicalSite1/Properties/AssemblyInfo.cs
+/Exercises/JuniorM/ArchaeologicalSite1/ArchaeologicalSite1.sln
+/Exercises/JuniorM/ArchaeologicalSite1/ArchaeologicalSite1.csproj
+/Exercises/JuniorM/ArchaeologicalSite1/ArchaeologicalSite1.cs
