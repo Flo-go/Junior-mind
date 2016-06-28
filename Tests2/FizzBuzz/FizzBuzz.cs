@@ -11,6 +11,18 @@ namespace FizzBuzz
         {
             Assert.AreEqual("FizzBuzz", DetermineFizzBuzz(60));
         }
+
+        [TestMethod]
+        public void FizzTest()
+        {
+            Assert.AreEqual("Fizz", DetermineFizzBuzz(36));
+        }
+
+        [TestMethod]
+        public void BuzzTest()
+        {
+            Assert.AreEqual("Buzz", DetermineFizzBuzz(65));
+        }
         string DetermineFizzBuzz(int number)
         {
             int reminderFromThree;
