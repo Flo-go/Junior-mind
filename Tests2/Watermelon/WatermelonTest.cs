@@ -13,12 +13,16 @@ namespace Watermelon
         }
         string EvenSlicesSolution(int kilos)
         {
+            string evenSlices = CanBeEvenlySliced(kilos) ? "NU" : "DA";
+            return evenSlices;
+        }
+
+        private static bool CanBeEvenlySliced(int kilos)
+        {
             int reminder;
             int quotient = Math.DivRem(kilos, 2, out reminder);
-            string evenSlices = reminder > 0 ^ quotient==1 ? "NU" : "DA";
-            return evenSlices;
-        } 
-
+            return reminder > 0 ^ quotient == 1;
+        }
 
     }
 }
