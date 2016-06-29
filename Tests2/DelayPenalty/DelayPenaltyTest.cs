@@ -9,12 +9,18 @@ namespace DelayPenalty
         [TestMethod]
         public void PenaltyForShortTerm()
         {
-            Assert.AreEqual(2, CalculatePenalyForShortTerm(100));
+            Assert.AreEqual(2, CalculatePenalty(100,5));
         }
-        double CalculatePenalyForShortTerm(int rent)
+
+        [TestMethod]
+        public void PenaltyForMediumTerm()
         {
-            double penalty = rent * 2 / 100;
-            return penalty;
+            Assert.AreEqual(5, CalculatePenalty(100, 20));
+        }
+        double CalculatePenalty(int rent, int days)
+        { 
+            int percentPenalty = days < 11 ? 2 : 5;
+            return rent*percentPenalty/100;
         }
 
     }
